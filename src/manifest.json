@@ -1,0 +1,27 @@
+{
+  "name": "Youtube Default Quality",
+  "description": "a minimal extension for setting a default resolution to youtube videos",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "host_permissions": ["*://*.youtube.com/*"],
+  "web_accessible_resources": [
+    {
+      "resources": ["script.js"],
+      "matches": ["*://*.youtube.com/*"]
+    }
+  ]
+}

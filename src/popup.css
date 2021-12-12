@@ -1,0 +1,11 @@
+.main {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  margin-top: 5%;
+}

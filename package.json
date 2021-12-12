@@ -1,0 +1,16 @@
+{
+  "name": "chrome-extension-set-youtube-default-video-quality",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc && rm -rf build && mkdir build && cp src/manifest.json build/manifest.json && cp src/popup.html build/popup.html && cp src/popup.css build/popup.css && yarn minifyjs",
+    "minifyjs": "node node_modules/uglify-js/bin/uglifyjs --compress --mangle --output build/background.js -- src/background.js && node node_modules/uglify-js/bin/uglifyjs --compress --mangle --output build/popup.js -- src/popup.js && node node_modules/uglify-js/bin/uglifyjs --compress --mangle --output build/content.js -- src/content.js && node node_modules/uglify-js/bin/uglifyjs --compress --mangle --output build/script.js -- src/script.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.169",
+    "typescript": "^4.5.2",
+    "uglify-js": "^3.14.4"
+  },
+  "dependencies": {}
+}
