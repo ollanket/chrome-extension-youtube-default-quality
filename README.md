@@ -6,7 +6,7 @@ Uses [Youtube Player Api](https://developers.google.com/youtube/iframe_api_refer
 
 ## INSTALLING
 
-[Download](/ollanket/chrome-extension-youtube-default-quality/releases/latest/download/build.zip) the release
+[Download](https://github.com/ollanket/chrome-extension-youtube-default-quality/releases/latest/download/build.zip) the release
 
 1. Unzip the downloaded file.
 2. Open extensions in chrome.
