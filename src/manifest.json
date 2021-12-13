@@ -1,6 +1,6 @@
 {
   "name": "Youtube Default Quality",
-  "description": "a minimal extension for setting a default resolution to youtube videos",
+  "description": "a minimal extension for setting a default resolution for youtube videos",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
