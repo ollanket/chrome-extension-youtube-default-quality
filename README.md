@@ -6,7 +6,7 @@ Uses [Youtube Player Api](https://developers.google.com/youtube/iframe_api_refer
 
 ## INSTALLING
 
-Get the [release](/ollanket/
+Get the [release](github.com/ollanket/
 chrome-extension-youtube-default-quality/releases/latest/download/v.1.0.0.zip):
 
 1. Download the zip and unzip it.
@@ -14,7 +14,7 @@ chrome-extension-youtube-default-quality/releases/latest/download/v.1.0.0.zip):
 3. Check developer mode.
 4. Load unpacked and select the unzipped folder.
 
-# OR
+#### OR
 
 1. Clone the repo
 2. In the repo directory: yarn install && yarn build
